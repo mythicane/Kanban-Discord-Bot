@@ -4,7 +4,13 @@ A (Python) Discord Bot specializing in Kanban-style project management —
 built for organizations running task tracking directly out of a Discord
 server. Add tasks, assign owners and deadlines, track priority and
 checklists, move tasks across a To Do / In Progress / Done board, and get DM
-reminders as deadlines approach.
+reminders as deadlines approach. 
+
+Note: This Bot does not utilize AI to make you "more efficient" per se, 
+but naively allows you to use traditional Kanban practices to keep track 
+of your to-dos in a flexible, agile, and streamlined way. Your own productivity
+entirely dependent on your own efforts, and you can use this bot to help you on 
+your journey!
 
 The bot reinforces the six Kanban practices:
 
@@ -86,7 +92,7 @@ Moving a task to "Done" (via `!move` or `!resolve`) is blocked until every
 checklist item on that task is marked complete, if it has any.
 
 Every 15 minutes, the bot DMs the assigned user for any task (with
-notifications enabled) that's within 24 hours of its deadline, or overdue.
+notifications enabled) that's within 24 hours of its deadline, or overdue
 
 ## License
 
